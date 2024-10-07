@@ -75,6 +75,7 @@ tools:context=".MainActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
+```
 MAIN CODE:
 
 package com.example.galleryview;
@@ -108,6 +109,8 @@ protected void onCreate(Bundle savedInstanceState) {
     });
 }
 }
+```
+```
 CustomizedGalleryAdapter Code:
 
   package com.example.galleryview;
@@ -142,7 +145,6 @@ public View getView(int position, View convertView, ViewGroup parent) {
     return imageView;
 }
 }
-```
 ```
 ## OUTPUT
 ![241160595-f6eb297d-26cd-4fe4-9cb8-7370731ead7b](https://github.com/MilitantVlr/Exp8/assets/121683193/3a871835-b63f-40b6-8401-6640de1c3fdf)
